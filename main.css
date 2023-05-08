@@ -9,23 +9,21 @@ body{
    width: 100%;
    height: 400px;
    display: flex;
-   justify-content: end;
+  justify-content: space-around;
    
 }
 
 #bowl{
-    width: 25%;
-    height: auto;
-    margin-right: 20%;
+   width: 25%;
+   height: 65%;
+    align-self: flex-end;
 
 
 }
 
 #maintextdiv{
 display: flex;
-justify-self: start;
 flex-direction: column;
-margin-right: 20%;
 align-items: center;
 }   
 
@@ -45,4 +43,130 @@ align-items: center;
     background-color: white;
     height: 150px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
+
+#inputsearch{
+    height: 40px;
+    width: 70%;
+    border-radius: 8px;
+    border: none;
+}
+
+#searchdiv{
+display: flex;
+width: 80%;
+align-self: center;
+align-items: center;
+
+}
+
+#foodwagon{
+    display: flex;
+}
+
+#food{
+    font-size: 25px;
+   /* font-family: 'Source Sans Pro'; */
+   color: #F17228;
+}
+
+#wagon{
+    font-size: 25px;
+    color: #FFB30E;
+    ;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#searchfood{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#loginbutton{
+    box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 8px;
+width: 40%;
+height: 50px;
+border: none;
+}
+
+#findfood{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+border-radius: 8px;
+border: none;
+width: 30%;
+height: 100%;
+}
+
+#delivery{
+    background: rgba(241, 114, 40, 0.1);
+border-radius: 8px;
+border: none;
+height: 100% ;
+color: #F17228;
+width: 30%;
+height: 100% ;
+font-size: 15px;
+
+}
+
+#pickup{
+    color: #757575;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+   
+}
+
+#deliverypickup{
+    display: flex;
+    width: 80% ;
+    align-self: center;
+}
+
+#container1{
+    display: flex;
+align-items: center;
+justify-content:space-evenly;
+    margin-top: 5%;
+   
+}
+
+.image1{
+    width: 70%;
+}
+
+.cardtop{
+    color: #424242;
+    font-size: 18px;
+}
+
+.cardbottom{
+    color: #F17228;
+    font-size: 18px;
+    background: rgba(241, 114, 40, 0.2);
+width: 40%;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
