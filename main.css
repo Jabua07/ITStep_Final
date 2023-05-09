@@ -14,8 +14,8 @@ body{
 }
 
 #bowl{
-   width: 25%;
-   height: 65%;
+   width: 20%;
+   height: 70%;
     align-self: flex-end;
 
 
@@ -170,3 +170,87 @@ align-items: center;
 
 }
 
+#container2{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 10%;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+
+}
+
+#howitworks{
+display: flex;
+color: #F17228;
+font-size: 350%;
+align-self: center;
+padding-top: 5%;
+padding-bottom: 3%;
+
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#carddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#carddiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#container3{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+    
+}
+#popularitems{
+    display: flex;
+    font-size: 230%;
+    color: #212121;
+   font-weight: bold;
+   padding-top: 15%;
+   padding-bottom: 20%;
+
+}
+
+.card2{
+    padding-bottom: 10%;
+}
+
+#carddivtop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+}
+
+#carddivbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.resizeimage{
+    width: 85%;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+}
+
+.innercard{
+    display: flex;
+}
