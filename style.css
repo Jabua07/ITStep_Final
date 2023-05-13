@@ -253,6 +253,69 @@ padding-bottom: 3%;
 
 .innercard{
     display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+   
+}
+
+.sidecard{
+    display: flex;
+  flex-direction: column;
+ width: 20%;
+padding-left: 10%;
+justify-content: center;
+}
+
+.sidecard p{
+    margin: 10%;
+    
+
+}
+
+.openstommorrow{
+    color: #F17228;
+    background: rgba(241, 114, 40, 0.2);
+border-radius: 16px;
+border: none;
+display: flex;
+width: 44%;
+align-items: center;
+padding-top: 2% ;
+padding-bottom: 2%;
+justify-content: center;
+font-size: 90%;
+font-weight: bold;
+}
+
+.opennow{
+    color: #79B93C;
+    background: rgba(121, 185, 60, 0.2);
+border-radius: 16px;
+border-radius: 16px;
+border: none;
+display: flex;
+width: 40%;
+align-items: center;
+padding-top: 2% ;
+padding-bottom: 2%;
+justify-content: center;
+font-size: 90%;
+font-weight: bold;
+}
+
+#container4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#featuredrestourants{
+    display: flex;
+    font-size: 200%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
 }
 
 @media screen and (max-width:750px)
@@ -294,6 +357,26 @@ padding-bottom: 3%;
         align-items: center;
         justify-content: center;
     }
+
+    #carddivtop{
+        flex-direction: column;
+        padding-left: 20%;
+        
+    }
+
+    .resizeimage{
+        width: 70%;
+    }
+
+    #carddivbottom{
+        flex-direction: column;
+        padding-left: 20%;
+        
+    }
+    
+    
+
+    
 
    
 }
