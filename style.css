@@ -307,6 +307,7 @@ font-weight: bold;
 #container4{
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 5%;
 }
 
 #featuredrestourants{
@@ -318,6 +319,201 @@ font-weight: bold;
     padding-bottom: 5%;
 }
 
+#viewall{
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+width: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+display: flex;
+justify-content: center;
+border: none;
+color: white;
+
+box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 14px;
+
+}
+
+#buttondiv1{
+    display: flex;
+    padding-top: 3%;
+   
+    justify-content: center;
+}
+
+
+#container5{
+    background: #FEFAF1;
+}
+
+
+
+#pizza{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(2\).png");
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#burger{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(1\).png");
+}
+
+#noodles{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(6\).png");
+}
+#sub{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(5\).png");
+}
+
+#chowmein{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(4\).png");
+}
+
+#steak{
+    border-radius: 50%;
+    width: 10%;
+    height: 200px;
+    background-image: url("circle\ \(3\).png");
+}
+
+#circlediv{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+
+
+#bottomtextcircle{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#container6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    background: #FEEFD0;
+}
+
+#container7{
+    display: flex;
+    background: #FEEFD0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#downloaddesc{
+  width: 20%;
+}
+
+#container8{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:5%;
+    
+}
+
+#sandwichpng{
+    width: 100%;
+    height: 80%;
+
+    
+}
+#innercont{
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 0px 14px 15px rgba(124, 124, 124, 0.06), 0px 27px 82px rgba(124, 124, 124, 0.28);
+    align-items: center;
+}
+
+#sandwichleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#proceedbutton{
+   width: 70%;
+   padding-bottom: 2%;
+   border-radius: 8px;
+   display: flex;
+   padding-top: 2%;
+   justify-content: center;
+}
+
+#chickenpng{
+    width: 100%;
+    height: 80%;
+}
+
+
+#chickenright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:5%;
+}
+
+#container10{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:5%;
+}
+
+#container11{
+    display: flex;
+   background-image: url(test.png);
+   padding-bottom: 10%;
+   background-repeat: round;
+   align-items: center;
+   justify-content: center;
+}
+
+#center11{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#proceedbutton1{
+    background-color: #F17228; color: white; border: none; width: 30%; padding-top: 2%; padding-bottom: 2%;
+}
 @media screen and (max-width:750px)
 {
     #header{
@@ -373,8 +569,76 @@ font-weight: bold;
         padding-left: 20%;
         
     }
+
+    #circlediv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #burger{
+        width: 50%;
+        background-repeat: round;
+    }
+
+    #pizza{
+        width: 50%;
+        background-repeat: round;
+    }
+    #steak{
+        width: 50%;
+        background-repeat: round;
+    }
+    #sub{
+        width: 50%;
+        background-repeat: round;
+    }
+    #noodles{
+        width: 50%;
+        background-repeat: round;
+    }
     
+    #chowmein{
+        width: 50%;
+        background-repeat: round;
+    }
+
+    #viewall{
+        width: 50%;
+    }
+
+    #container7{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #downloadbuttons{
+        display: flex;
+        flex-direction: column;
+    }
     
+    #downloaddesc{ 
+        width: 70%;
+        height: 30%;
+        
+    }
+
+    #chickenpng{
+        display: none;
+    }
+
+    #sandwichpng{
+        display: none;
+    }
+
+    #container11{
+        background-color: #feba00;
+        background-image: none;
+    }
+
+    #proceedbutton1{
+        width: 50%;
+    }
 
     
 
