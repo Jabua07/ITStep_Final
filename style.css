@@ -514,6 +514,11 @@ border-radius: 14px;
 #proceedbutton1{
     background-color: #F17228; color: white; border: none; width: 30%; padding-top: 2%; padding-bottom: 2%;
 }
+#footer{
+    display: flex;
+    background: #212121;
+    width: 100%;
+}
 @media screen and (max-width:750px)
 {
     #header{
