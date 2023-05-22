@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
     <link rel="stylesheet" href="loginpage.css">
     <title>Document</title>
 </head>
@@ -12,16 +12,40 @@
     
 
     <div id="loginform">
-        <div id="innerform">
-            <p id="usernamep">Username</p>
-            <input id="username" type="text">
-            <p>Email</p>
-            <input type="text"  id="email">
-            <p>Password</p>
-            <input type="password">
-            <button>Log In</button>
+        <div class="innerform">
+            <form id="mainform" action="">
+                <p id="usernamep">Username</p>
+                <input id="username" type="text">
+                <p>Email</p>
+                <input type="text"  id="email">
+                <p>Password</p>
+                <input type="password">
+                <button>Log In</button>
+            </form>
+            <div  id="mainform1">
+                <p id="usernamep">Username</p>
+                <input id="username1" type="text">
+                <p>First Name</p>
+                <input id="firstname1" type="text">
+                <p>Last Name</p>
+                <input type="text" name="lastname1" id="lastname1">
+                <p>Email</p>
+                <input type="text"  id="email1">
+                <p>Private Number</p>
+                <input id="privatenumber1" type="text">
+                <p>Password</p>
+                <input id="password1" type="password">
+                
+                <button onclick="register()" >Register</button>
+
+                <p id="message"></p>
+            </div>
+            
+       
         </div>
-     
+
+     <p onclick="toRegister()" id="register">Don't Have An Account? Register</p>
+     <p onclick="toLogin()" style="display: none;" id="tologin">Go To Login</p>
     </div>
    
 
