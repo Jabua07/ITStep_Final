@@ -13,15 +13,15 @@
 
     <div id="loginform">
         <div class="innerform">
-            <form id="mainform" action="">
-                <p id="usernamep">Username</p>
-                <input id="username" type="text">
+            <div id="mainform">
+
                 <p>Email</p>
                 <input type="text"  id="email">
                 <p>Password</p>
-                <input type="password">
-                <button>Log In</button>
-            </form>
+                <input id="password" type="password">
+                <button onclick="login1()" id="loginbutton">Log In</button>
+            </div>
+            
             <div  id="mainform1">
                 <p id="usernamep">Username</p>
                 <input id="username1" type="text">
@@ -36,14 +36,14 @@
                 <p>Password</p>
                 <input id="password1" type="password">
                 
-                <button onclick="register()" >Register</button>
+                <button id="registerbutton" onclick="register()" >Register</button>
 
                 <p id="message"></p>
             </div>
             
        
         </div>
-
+<p onclick="test()">test</p>
      <p onclick="toRegister()" id="register">Don't Have An Account? Register</p>
      <p onclick="toLogin()" style="display: none;" id="tologin">Go To Login</p>
     </div>

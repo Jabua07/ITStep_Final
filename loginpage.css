@@ -1,5 +1,6 @@
 body{
-    background-color:  rgb(242, 210, 0);
+    background: rgb(246,181,0);
+    background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.8841911764705882) 17%, rgba(255,119,0,1) 42%, rgba(255,205,0,1) 99%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,4 +75,20 @@ button{
 
 #message{
     color:green;
+}
+
+#register{
+    cursor: pointer;
+}
+
+#tologin{
+    cursor: pointer;
+}
+
+#registerbutton{
+    cursor: pointer;
+}
+
+#loginbutton{
+    cursor: pointer;
 }
