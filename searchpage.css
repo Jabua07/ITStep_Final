@@ -38,7 +38,7 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
     padding: 1% 1%;
     margin-top: 1%;
     color: white;
-
+    cursor: pointer;
 }
 
 #items{
@@ -50,8 +50,9 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
 
 }
 
-.card2{
-    display: flex;
+
+#test{
+    
     flex-direction: column;
     height: 10%;
     border: 1px solid black;
@@ -59,6 +60,7 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
 
     border-radius: 10%;
 }
+
 
 #itemstop{
     width: 100%;
@@ -100,5 +102,9 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
     flex-direction: row;
     margin-left: 5%;
     justify-content: space-evenly;
+}
+
+.hide{
+    display: none;
 }
 
