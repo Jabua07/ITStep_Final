@@ -48,10 +48,3 @@ function login1() {
 }
 
       // irakli1111@gmail.com  irakli07
-
-let nextpage = document.querySelector(".nextpage")
-nextpage.addEventListener('click', myFunction)
-
-function myFunction() { 
-  window.location.replace("searchpage.html")
- }
