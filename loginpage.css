@@ -123,3 +123,14 @@ button{
         width: 100%;
     }
 }
+
+@media screen and (max-width:915px)
+{
+    input{
+        width: 70%;
+    }
+
+    button{
+        width: 70%;
+    }
+}
