@@ -86,4 +86,9 @@ $(".X4").click(function () {
   $("#soupd").css("display","none")
 });
 
+$("#foodwagon").click(function (e) { 
+  window.location.replace("index.html")
+  
+});
+
 

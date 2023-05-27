@@ -5,6 +5,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
+    flex-direction: column;
     
 }
 
@@ -23,10 +24,13 @@ body{
 
 input{
    
-    width: 80%;
-    padding: 1%;
+    width: 200%;
+    padding: 10% 10%;
     border-radius: 8px;
     border: 1px solid black;
+    background-color: #f5af0030;
+    
+    
 }
 
 p{
@@ -47,19 +51,33 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+   
 }
 
 
 button{
-    margin-top: 5%;
+    margin-top: 10%;
     background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
     border-radius: 8px;
     border: none;
-    width: 40%;
+    width: 220%;
     height: 100%;
     color: white;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#logintop{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ font-size: 200%;
+    align-self: center;
+    padding: 4% 4%;
+    border-radius: 20px;
+    color: #f7b100;
 }
 
 #mainform1{

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div id="foodwagon"><p id="food">food</p>
+        <p id="wagon">wagon</p></div>
+        <div><p><b>Deliver To:</b> 
+          <img src="map.png" alt="">  Current Location
+            Mohammadpur Bus Stand, Dhaka</p></div>
+            <div id="searchfood"><img src="Search.png" alt=""><b>Search Food</b> <button id="loginbutton"> <img src="user.png" alt="">Login</button></div>
+           
+        
+    </div>
+    <div id="container">
+        <div id="maintextdiv">
+            <p id="maintext">ARE YOU STARVING?</p>
+            <p id="bottomtext">Within a few clicks, find meals that are accessible near you</p>
+            <div id="searchblock">
+                <div id="deliverypickup">
+                        <button id="delivery"><img src="bike.png">Delivery</button>
+                        <button id="pickup"><img src="basket.png">Pickup</button>
+                    </div>
+                <div id="searchdiv">
+                    <img src="Icon.png" alt="">
+    <input id="inputsearch" placeholder="Enter Your Adress" type="text">
+    <button id="findfood"  >Find Food</button>
+
+                </div>
+
+            </div>
+        </div>
+       
+        
+        <img  id="bowl" src="Image Base.png" alt="">
+    </div>
+     <div id="container1">
+            <div class="card"><img class="image1" src="greysvage.png" alt="" > <div id="percenttest"></div>
+                <p class="cardtop">Greys Vage</p>
+                <p class="cardbottom">6 Days Remaining</p>
+            </div>
+            <div class="card">
+                <img class="image1" src="greysvage1.png" alt="">
+               <p class="cardtop">Greys Vage</p>
+               <p class="cardbottom">6 Days Remaining</p>
+            </div>
+            <div class="card">
+                <img class="image1" src="greysvage3.png" alt="">
+                <p class="cardtop">Greys Vage</p>
+                <p class="cardbottom">7 Days Remaining</p>
+            </div>
+            <div class="card">
+                <img class="image1" src="greysvage4.png" alt="">
+                <p class="cardtop">Greys Vage</p>
+                <p class="cardbottom">8 Days Remaining</p>
+            </div>
+        </div>
+
+        <div id="container2">
+            <div id="howitworks">
+                <p >How does it work?</p>
+            </div>
+
+            <div id="carddiv">
+                <div class="card1">
+    <img src="Vector.png" alt="">
+    <b style="color:#434343; font-size: 150%;">Select Location</b>
+    <p style="color: #9E9E9E; font-size: 140%; text-align: center;">Choose the location where your food will be delivered.</p>
+</div>
+<div class="card1">
+    <img src="Rectangle 332.png" alt="">
+    <b style="color:#434343; font-size: 150%;">Choose order</b>
+    <p style="color: #9E9E9E; font-size: 140%; text-align: center;">Check over hundreds of menus to pick your favorite food</p>
+</div>
+<div class="card1">
+    <img src="Vector (1).png" alt="">
+    <b style="color:#434343; font-size: 150%;">Pay advanced</b>
+    <p style="color: #9E9E9E; font-size: 140%; text-align: center;">It's quick, safe, and simple. Select several methods of payment</p>
+</div>
+<div class="card1">
+    <img src="Vector (2).png" alt="">
+    <b style="color:#434343; font-size: 150%; "  >Enjoy meals</b>
+    <p style="color: #9E9E9E; font-size: 140%; text-align: center;">Food is made and delivered directly to your home.</p>
+</div>
+            </div>
+
+        </div>
+
+        <div id="container3">
+<div id="popularitems"><p>Popular Items</p></div>
+
+        </div>
+        
+        <div id="carddiv1">
+            <div class="card2"> <img src="Rectangle 336.png" alt="">
+            <p style="color: #424242; font-weight: bold; font-size: 140%;">Cheese Burger</p>
+            <p style="color: #FFB30E; font-size:130%">Burger Arena</p>
+            <p style="color: #212121; font-size:110%; font-weight: bold">$3.88</p>
+        <button onclick="myFunction()" class="nextpage" style="width: 100%; height: 10%; background: #F17228; box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+        border-radius: 8px; border: none;">Order Now</button>
+            </div>
+  
+ 
+        <div class="card2"> <img src="Rectangle 336 (1).png" alt="">
+        <p style="color: #424242; font-weight: bold; font-size: 140%;">Toffe's Cake</p>
+        <p style="color: #FFB30E; font-size:130%">Top Sticks</p>
+        <p style="color: #212121; font-size:110%; font-weight: bold">$4.00</p>
+    <button onclick="myFunction()" class="nextpage" style="width: 100%; height: 10%; background: #F17228; box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+    border-radius: 8px;  border: none;">Order Now</button>
+</div>
+
+
+    <div class="card2"> <img src="Rectangle 336 (2).png" alt="">
+    <p style="color: #424242; font-weight: bold; font-size: 140%;">Dancake</p>
+    <p style="color: #FFB30E; font-size:130%">Cake World</p>
+    <p style="color: #212121; font-size:110%; font-weight: bold">$1.99</p>
+<button onclick="myFunction()" class="nextpage" style="width: 100%; height: 10%; background: #F17228; box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;  border: none;">Order Now</button>
+</div>
+
+    <div class="card2"> <img src="Rectangle 336 (3).png" alt="">
+    <p style="color: #424242; font-weight: bold; font-size: 140%;">Crispy Sandwitch</p>
+    <p style="color: #FFB30E; font-size:130%">Fastfood Dine</p>
+    <p style="color: #212121; font-size:110%; font-weight: bold">$3.00</p>
+<button onclick="myFunction()" class="nextpage"  style="width: 100%; height: 10%; background: #F17228; box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;  border: none;">Order Now</button>
+</div>
+
+
+    <div class="card2"> <img src="Rectangle 336 (4).png" alt="">
+    <p style="color: #424242; font-weight: bold; font-size: 140%;">Thai  Soup</p>
+    <p style="color: #FFB30E; font-size:130%">Foody man</p>
+    <p style="color: #212121; font-size:110%; font-weight: bold">$2.79</p>
+<button onclick="myFunction()" class="nextpage" style="width: 100%; height: 10%; background: #F17228; box-shadow: 0px 5px 10px rgba(253, 114, 92, 0.22), 0px 20px 40px rgba(250, 99, 35, 0.24);
+border-radius: 8px;  border: none;">Order Now</button>
+</div>
+
+        </div>
+
+        <div id="container4">
+<div id="featuredrestourants">
+    <p>Featured Restourants</p>
+</div>
+<div id="carddivtop">
+    <div class="card3">
+        <img class="resizeimage" src="Image (1).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="asd.png" alt="">
+            <div class="sidecard">
+                <p style="color: #424242; font-size: 110%;">Foodworld</p>
+                <p style="color: #FFB30E;"><img src="star.png">46</p>
+</div>
+</div>
+<button class="openstommorrow">Opens tommorrow</button>
+
+    </div>
+    <div class="card3"> 
+        <img  class="resizeimage" src="Image (2).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="1.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Pizzahub</p>
+                <p style="color: #FFB30E;"><img src="star.png">40</p>
+</div>
+</div>
+<button class="openstommorrow">Opens tommorrow</button>
+    </div>
+    <div class="card3">
+        <img  class="resizeimage" src="Image (3).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="2.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Donuts hut</p>
+                <p style="color: #FFB30E;"><img src="star.png">20</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+    <div class="card3">
+        <img  class="resizeimage" src="Image (4).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="3.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Donuts hut</p>
+                <p style="color: #FFB30E;"><img src="star.png">50</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+</div>
+<div id="carddivbottom">
+    <div class="card3">
+        <img  class="resizeimage" src="Image (5).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="4.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Ruby Tuesday</p>
+                <p style="color: #FFB30E;"><img src="star.png">26</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+    <div class="card3">
+        <img  class="resizeimage" src="Image (6).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="5.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Kuakata Fried Chicken</p>
+                <p style="color: #FFB30E;"><img src="star.png">53</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+    <div class="card3">
+        <img class="resizeimage" src="Image (7).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="6.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Red Square</p>
+                <p style="color: #FFB30E;" > <img src="star.png">45</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+    <div class="card3">
+        <img class="resizeimage" src="Image (8).png" alt="">
+        <div class="innercard">
+            <img style="width: 15%;" src="7.png" alt="">
+            <div class="sidecard"><p style="color: #424242; font-size: 110%;">Taco Bell</p>
+                <p style="color: #FFB30E;"><img src="star.png">35</p>
+</div>
+</div>
+<button onclick="myFunction()" class="opennow">Open now</button>
+    </div>
+</div>
+<div id="buttondiv1">
+    <button onclick="myFunction()" id="viewall">View All ></button>
+</div>
+
+        </div>
+
+    <div id="container5">
+<div id="topdiv1">
+<p style="font-size: 170%; font-weight: bold;">Search By Food</p>
+</div>
+<div id="circlediv">
+
+<div onclick="myFunction()" id="pizza">
+    <div class="bottomtextcircle">Pizza</div>
+</div>
+
+<div onclick="myFunction()" id="burger">
+
+</div>
+<!-- <p>Burger</p> -->
+<div onclick="myFunction()" id="noodles">
+<!-- <p>Noodles</p> -->
+</div>
+<div onclick="myFunction()"  id="sub">
+<!-- <p>Sub-sandwich</p> -->
+</div>
+<div onclick="myFunction()" id="chowmein">
+<!-- <p>Chowmein</p> -->
+</div>
+<div onclick="myFunction()" id="steak">
+<!-- <p>Steak</p> -->
+</div>
+</div>
+
+</div>
+    </div>
+
+    <div id="container6">
+<img style="width: 70%; background: #FEEFD0; " src="Card.png " alt="">
+    </div>
+
+    <div id="container7">
+<p style="background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 220%;
+font-weight: 900;
+" >Install The App</p>
+<p id="downloaddesc" style="color: #827E7E;" >It's never been easier to order food.
+     Look for the finest discounts
+      and you'll be lost in a world of delectable food.
+    </p>
+    <div id="downloadbuttons">
+        <img onclick="googlePlay()" src="Google Play Download.png" alt="">
+        <img onclick="appStore()" src="App Store Download Button.png" alt="">
+    </div>
+    </div>
+
+    <div id="container8">
+        <div id="innercont">
+            <div id="sandwichleft">
+                <p style="color: #353535; font-size: 190%; font-weight: 900; width: 70%;">Best deals Crispy Sandwiches</p>
+                <p style="color: rgba(97, 97, 97, 0.69) ; width: 70%;
+                ">Enjoy the large size of sandwiches. Complete 
+                    perfect slice of sandwiches.</p>
+                    <button onclick="myFunction()" id="proceedbutton" style="background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+                    /* Button shadow ! */
+                    
+                    box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29); border: none; color: white;">PROCEED TO ORDER></button>
+            </div>
+            <div id="sandwichright">
+                <img id="sandwichpng" src="sandwich.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="container9">
+        <div id="innercont">
+            <div id="chickenleft"><img id="chickenpng" src="chicken.png" alt=""></div>
+<div id="chickenright">
+    <p style="color: #353535; font-size: 190%; font-weight: 900; width: 70%;">Celebrate  parties
+        with Fried Chicken</p>
+    <p style="color: rgba(97, 97, 97, 0.69) ; width: 70%;
+    ">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out 
+best deals for fried chicken.</p>
+        <button onclick="myFunction()" id="proceedbutton" style="background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+        /* Button shadow ! */
+        
+        box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29); border: none; color: white;">PROCEED TO ORDER></button>
+</div>
+
+
+
+        </div>
+    </div>
+<div id="container10">
+    <div id="innercont">
+        <div id="sandwichleft">
+            <p style="color: #353535; font-size: 190%; font-weight: 900; width: 70%;">Wanna eat hot 
+                & spicy Pizza?</p>
+            <p style="color: rgba(97, 97, 97, 0.69) ; width: 70%;
+            ">Pair up with a friend and enjoy the 
+hot and crispy pizza pops. Try it 
+with the best deals.</p>
+                <button onclick="myFunction()" id="proceedbutton" style="background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+                /* Button shadow ! */
+                
+                box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29); border: none; color: white;">PROCEED TO ORDER></button>
+        </div>
+        <div id="sandwichright">
+            <img id="sandwichpng" src="pizza.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+  <div id="container11">
+    <div id="center11">
+        <p style="color:white; font-size: 250%; font-weight: 900;">Are you ready to order with the best deals?</p>
+    <button id="proceedbutton1">Proceed To Order ></button>
+    </div>
+    
+  </div>
+</body>
+
+<div id="footer">
+    <p id="topcities">Our top cities</p>
+    <div id="footertop">
+        
+        <div class="cityrow">
+            <p>San Francisco</p>
+            <p>Miami</p>
+            <p>San Diego</p>
+            <p>East Bay</p>
+            <p>Long Beach</p>
+        </div>
+        <div class="cityrow">
+            <p>Los Angeles</p>
+            <p>Washington DC</p>
+            <p>Seattle</p>
+            <p>Portland</p>
+            <p>Nashville</p>
+        </div>
+        <div class="cityrow">
+            <p>New York City</p>
+            <p>Orange County</p>
+            <p>Atlanta</p>
+            <p>Charlotte</p>
+            <p>Denver</p>
+        </div>
+        <div class="cityrow">
+            <p>Chicago</p>
+            <p>Phoenix</p>
+            <p>Las Vegas</p>
+            <p>Sacramento</p>
+            <p>Oklahoma City</p>
+        </div>
+        <div class="cityrow">
+            <p>Columbus</p>
+            <p>New Mexico</p>
+            <p>Albuquerque</p>
+            <p>Sacramento</p>
+            <p>New Orleans</p>
+        </div>
+    </div>
+    <div id="footermid">
+        <div id="midleft">
+            <div class="test">
+                <p class="boldfooter">Company</p>
+                <p>About us</p>
+                <p>Team</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+            <div class="test">
+                <p class="boldfooter">Contact</p>
+                <p>Help & Support</p>
+                <p>Partner with us </p>
+                <p>Ride with us</p>
+            </div>
+            <div class="test"> 
+                <p class="boldfooter">Legal</p>
+                <p>Terms & Conditions</p>
+                <p>Refund & Cancellation</p>
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+            </div>
+        </div>
+        <div id="midright">
+            <p style="color: #ADADAD;
+            ">FOLLOW US</p>
+            <div style="display: flex; align-items: center; width: 30%;" id="socials">
+                <img style="width: 20%; padding: 5%;" src="ig.png" alt="">
+                <img style="width: 20%; padding: 5%;" src="fb.png" alt="">
+                <img style="width: 20%; padding: 5%;" src="t.png" alt="">
+            </div>
+            <p style="color: #BBBBBB;">Receive exclusive offers in your mailbox</p>
+            <div style="height: 20%; display: flex; align-items: center;" id="footerinp" >
+                <input  style="background: #424242; border: none; height: 100%"  placeholder="Enter Your Email" type="text">
+                <button style="height: 100%; background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+                margin-left: 5%; color: white; border: none; border-radius: 8px;">Subscribe</button>
+            </div>
+            
+        </div>
+    </div>
+    <div style="display: flex; justify-content: left; color: white; margin-left: 5%;" >
+        <p>All rights Reserved ©</p> 
+    </div>
+</div>
+
+<script src="main1.js"></script>
+</html>

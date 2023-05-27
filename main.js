@@ -5,6 +5,7 @@ function toRegister() {
 
   document.getElementById("register").style.display = "none"
   document.getElementById("tologin").style.display = "flex"
+  document.getElementById("logintop").style.display = "none"
 }
 
 function toLogin() {
@@ -14,6 +15,7 @@ function toLogin() {
 
   document.getElementById("register").style.display = "flex"
   document.getElementById("tologin").style.display = "none"
+  document.getElementById("logintop").style.display = "flex"
 }
 
 function register() {
@@ -25,7 +27,7 @@ function register() {
   let password = document.getElementById("password1").value;
  
 
-  fetch('http://kketelauri-001-site1.gtempurl.com/api/user/adduser',
+  fetch('https://kketelauri-001-site1.gtempurl.com/api/user/adduser',
     {
       method: 'POST', headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
       body: JSON.stringify({ "userName": username, "firstName": firstname, "lastName": lastname, "email": email, "privateNumber": privatenum, "password": password, "active": true })
@@ -38,11 +40,14 @@ function login1() {
   
   let loginmail = document.getElementById("email").value;
   let loginpass = document.getElementById("password").value;
-  fetch('http://kketelauri-001-site1.gtempurl.com/api/user/login',
+  if(loginmail=="" || loginpass==""){
+    return
+  }
+  fetch('https://kketelauri-001-site1.gtempurl.com/api/user/login',
     {
       method: 'POST', headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
       body: JSON.stringify({ "email": loginmail, "password": loginpass })
-    }).then(response => response.json()).then(response => window.location.replace("index.html"))
+    }).then(response => response.json()).then(response => window.location.replace("index1.html"))
 
 
 }
