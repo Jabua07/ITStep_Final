@@ -29,6 +29,8 @@ input{
     border-radius: 8px;
     border: 1px solid black;
     background-color: #f5af0030;
+    margin-left: 5%;
+    margin-right: 5%;
     
     
 }
@@ -109,4 +111,15 @@ button{
 
 #loginbutton{
     cursor: pointer;
+}
+
+@media screen and (max-width:915px)
+{
+    input{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+    }
 }
