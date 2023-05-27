@@ -126,6 +126,10 @@ button{
 
 @media screen and (max-width:516px)
 {
+
+    #loginform{
+        width: 60%;
+    }
     input{
         width: 70%;
     }
