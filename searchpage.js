@@ -87,7 +87,7 @@ $(".X4").click(function () {
 });
 
 $("#foodwagon").click(function (e) { 
-  window.location.replace("index.html")
+  window.location.replace("index1.html")
   
 });
 
