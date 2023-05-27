@@ -124,7 +124,7 @@ button{
     }
 }
 
-@media screen and (max-width:915px)
+@media screen and (max-width:516px)
 {
     input{
         width: 70%;
