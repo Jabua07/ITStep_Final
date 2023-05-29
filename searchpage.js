@@ -188,7 +188,10 @@ container1.appendChild(newDiv)
 
 
 }
- 
+function logOut(){
+  window.location.replace("index.html")
+}
+
   
 
 function removeButton(el){

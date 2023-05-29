@@ -184,6 +184,13 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
 
 }
 
+#loginbutton{
+    box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+border-radius: 8px;
+width: 70%;
+height: 50px;
+border: none;
+}
 #soupd{
     margin-top: 5%;
     display: none;

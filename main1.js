@@ -1,6 +1,7 @@
 
 function myFunction() { 
     window.location.replace("searchpage.html")
+    
    }
 
    function googlePlay(){
@@ -14,6 +15,8 @@ function myFunction() {
     function logOut(){
         window.location.replace("index.html")
     }
+
+
 
      
 
