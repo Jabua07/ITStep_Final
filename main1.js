@@ -11,5 +11,9 @@ function myFunction() {
     window.location.replace("https://www.apple.com/app-store/")
      }
 
+    function logOut(){
+        window.location.replace("index.html")
+    }
+
      
 

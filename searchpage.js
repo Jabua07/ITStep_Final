@@ -57,7 +57,7 @@ function search() {
   }
   ]
 
-$("#detailsBurger").click(function () { 
+$(".detailsBurger").click(function () { 
   
   $("#items", ).css("display", "none");
   $("#itemsbottom", ).css("display", "none");
@@ -178,15 +178,22 @@ function cartItems(product) {
 newDiv.innerHTML= `<div class="item"> 
  <img width="15%" src=${imagesrc1} alt="">
  <p>Item:${itemname1}</p>
- <button onclick="removeButton()" id="remove">Remove </button>
+ <button onclick="removeButton(this.parentNode)" id="remove">Remove </button>
  
 </div>`
 
 container1.appendChild(newDiv)
 
 
-  }
 
+
+}
+ 
   
+
+function removeButton(el){
+  el.style.display='none';
+};
+
   
   

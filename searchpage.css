@@ -106,7 +106,7 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
 .item{
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    
     justify-content: space-evenly;
     margin-bottom: 3%;
     width: 100%;
@@ -225,7 +225,7 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
     width: 20%;
 }
 
-#detailsBurger{
+.detailsBurger{
     cursor: pointer;
 }
 
@@ -269,7 +269,13 @@ background: linear-gradient(90deg, rgba(246,181,0,1) 0%, rgba(255,145,0,0.884191
     cursor: pointer;
 }
 
+.addToCart{
+    cursor: pointer;
+}
 
+#remove{
+    cursor: pointer;
+}
 
 
 
@@ -283,6 +289,10 @@ width: 80%;
 }
     #items{
         align-items: center;
+    }
+
+    #item{
+        width: 80%;
     }
     #itemstop{
 width: 50%;
@@ -307,7 +317,9 @@ width: 50%;
         width: 100%;
     }
 
-    
+    #cart{
+        width: 80%;
+    }
 
     #sandwichd{
         width: 100%;
